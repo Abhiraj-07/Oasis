@@ -1,0 +1,115 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-image: linear-gradient(rgb(0 0 255 / 78%),rgb(0 0 255 / 60%),rgb(0 0 255 / 0%)
+    );
+}
+#main_heading {
+    height: 30px;
+    width: 100vw;
+    font-size: 17px;
+    color: black;
+    background-color: blue;
+    padding-top: 5px;
+    text-transform: capitalize;
+}
+#main_heading >i{
+
+    padding-left: 15px;
+
+}
+
+#add_note {
+
+    background-color: white;
+    width: 100px;
+    position: fixed;
+    right: 10px;
+    margin-top: 5px ;
+    text-align: center;
+    text-transform: capitalize;
+}
+#add_note:hover {
+
+    border-radius: 5px;
+}
+#clean {
+    display: none;
+    color: rgb(255, 85, 0);
+  
+}
+#add_note:hover>#clean {
+    display: inline-block;
+}
+#button {
+    text-align: center;
+    display: inline;
+    /* background-color: yellow; */
+}
+#button:hover {
+
+    border-radius: 5px;
+}
+#note_list {
+    margin-top: 35px;
+    margin-left: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 4px;
+    margin-right: 25px;
+    text-align: center;
+}
+
+#note_list>div{
+    background-color: rgb(255, 255, 255);
+    height:30vh;
+    width: auto;
+    border: 3px solid black;
+}
+.textarea{
+    height: 100vh;
+    background-color: azure;
+}
+
+.edit{
+    position: relative;
+color: red;
+background-color: yellow;
+border: none;
+left:40% ;
+top: 5%;
+}
+.edit:hover{
+/* font-size: large; */
+background-color: red;
+color: yellow;
+
+}
+
+
+.delete{
+    position: relative;
+    border: none;
+
+
+    left:40% ;
+
+}
+.delete:hover{
+    /* font-size: large; */
+    background-color: red;
+    color: yellow;
+    
+    }
+.hidden{
+    display: none;
+}
+textarea{
+    display: block;
+    width: 90%;
+    margin-left: 5%;
+    height: 80%;
+
+}
