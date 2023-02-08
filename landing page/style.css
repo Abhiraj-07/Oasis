@@ -1,0 +1,40 @@
+body{
+    background-image: url('/gym\ image.jpg!d');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: center; */
+}
+#top{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+.boxes{
+    color: antiquewhite;
+    font-size: 1.7em;
+    transition: all .2s ease-in-out; 
+    padding: 10px;
+}
+.boxes:hover{
+    color: white;
+    text-shadow: 1px 1px 2px antiquewhite;
+
+    transform: scale(1.2); 
+    cursor: pointer;
+
+}
+#box-7{
+    margin-right:  25px; 
+}
+#box-1{
+    margin-left:  25px; 
+}
+.quote{
+    margin-top: 25vh;
+    margin-left: 3vw;
+    color: wheat;
+font-size: 4.6em;
+width: 50vw;
+     
+}

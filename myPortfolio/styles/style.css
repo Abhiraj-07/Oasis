@@ -1,0 +1,183 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.side_nav {
+    display: none;
+    width: 300px;
+    height: 1 00vh;
+    background-color: black;
+    position: fixed;
+    left: 0%;
+    top: 0%;
+    color: rgb(138 159 228);
+
+    animation: fadeOutLeft;
+    animation-duration: .8s;
+}
+
+.side_nav .top_nav_box .img_box {
+    width: 120px;
+    height: 120px;
+    background-color: rgb(110, 110, 110, .5);
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+
+    align-items: center;
+}
+
+.side_nav .top_nav_box .img_box .img {
+
+
+    background-image: url('/images/myimage.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 110px;
+    height: 110px;
+    background-color: rgb(110, 110, 110, .5);
+    border-radius: 50%;
+}
+
+.top_nav_box>h1:hover {
+    text-shadow: 3px 3px 4px blue;
+
+}
+
+.img_box:hover {
+    border: 3px solid blue;
+
+}
+
+.side_nav .top_nav_box .item_icons i {
+
+    padding: 10px;
+    background-color: rgb(110, 110, 110, .5);
+    font-size: 17px;
+    border-color: aqua;
+    border-radius: 50%;
+}
+
+.center_nav_box {
+    list-style: none;
+
+}
+
+.center_nav_box li {
+    padding: 4px;
+}
+
+.center_nav_box li i {
+    color: white;
+    padding: 4px;
+}
+
+.center_nav_box li :hover {
+    color: blue;
+    padding: 4px;
+}
+
+.center_nav_box li:hover a {
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+}
+
+.center_nav_box>li:hover>.a>a {
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    font-size: 15px;
+}
+
+.item_icons>a>i:hover {
+    color: white;
+    border-radius: 100%;
+    border: 2px solid rgb(0, 0, 255);
+    width: auto;
+    background-color: wheat;
+    height: auto;
+}
+
+.center_nav_box li a {
+    text-decoration: none;
+    color: blue;
+    padding: 4px;
+}
+
+.item_icons>a>i {
+    text-align: center;
+    background-color: black;
+    color: blue;
+}
+
+.center_nav_box>.active {
+    color: blue;
+}
+
+.center_nav_box>.active a {
+    color: blue;
+}
+
+.center_nav_box>.active>i {
+    color: blue;
+}
+
+.bottom_nav_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    -ms-flex-align: end;
+}
+
+.bottom_nav_box p {
+    padding: 2px;
+    font-size: 9px;
+
+}
+
+.main_body .close_box {
+
+    position: fixed;
+    right: 4px;
+    top: 4px;
+}
+
+.main_body .close_box .one {
+    font-size: 35px;
+    display: none;
+}
+
+.main_body .close_box .two {
+    font-size: 35px;
+}
+
+.actived {
+    animation: fadeInLeft;
+    animation-duration: .8s;
+}
+
+.top_main {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    font-size: 4rem;
+}
+
+.main_box {
+    width: 100%;
+    height: 100vh;
+    background-image: url('/images/IMG-20230126-WA0026.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#myLine {
+    margin-left: 40vw;
+}
+
+.main_box {}

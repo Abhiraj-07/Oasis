@@ -1,0 +1,51 @@
+body {
+    background-color: rgb(252 217 217);;
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+    color: rgb(177 105 105);
+    ;
+}
+
+#container {}
+
+#heading {
+
+    text-align: center;
+    font-size: 1.7em;
+}
+
+#heading>h1:hover {
+
+    text-shadow: 2px 4px 40px black;
+}
+
+#Image {
+
+    margin: auto;
+}
+
+
+#Image>img {
+
+    border-radius: 5px;
+    margin: 10px auto 20px;
+    display: block;
+    height: 38vh;
+    width: 22vw;
+
+margin-bottom:     3vw;
+}
+#Image>img:hover {
+    border: 3px solid black;
+
+}
+
+#info {
+
+color: black;
+    text-align: center;
+    padding-left: 10vw;
+    padding-right: 10vw;
+
+}
